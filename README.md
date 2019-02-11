@@ -255,7 +255,8 @@ devices:                             # router list
 
 - the VM of the controlPlane needs a default configuration with an user, access permissions and management IP
 
-- a management IP is necessary to upload the initial configuration (temporary management IP in this example: 192.18.10.100/24)
+- a management IP is necessary to upload the initial configuration 
+  - temporary management IP in this example: 192.18.10.100/24
 
 ##### template config-file: template.conf
 ###### folder: CONFIG
