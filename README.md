@@ -19,8 +19,8 @@ This project was made to modify the configuration of all Juniper devices (e.g. r
   - internal connection between controlPlane and forwardingPlane
   - external connections between virtual routers
 - upload a custom default configuration
-- each configuration step will be checked for possible errors before the implementation starts (exception handling for different events and 
-  adequate dynamic reaction)
+- each configuration step will be checked for possible errors before the implementation starts 
+  - exception handling for different events and adequate dynamic reaction
 - every step and every result will be written in the console 
 
 ------------
