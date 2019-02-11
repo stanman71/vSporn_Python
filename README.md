@@ -25,7 +25,7 @@ This project was made to modify the configuration of all Juniper devices (e.g. r
 
 ------------
 
-##### start ```main.py``` to use the features
+##### start ```main.py``` to use features
 
 You will find more examples there
 
