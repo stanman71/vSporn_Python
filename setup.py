@@ -15,7 +15,7 @@ setup(
     long_description=readme,
     author='Martin Stan',
     author_email='martin.stan@gmx.de',
-    url='https://github.com/stanman71/Python_Projects/vLab',
+    url='https://github.com/stanman71/vSporn_Python',
     license=license,
     packages=find_packages(exclude=('CONFIG', 'TOPOLOGIES'))
 )
