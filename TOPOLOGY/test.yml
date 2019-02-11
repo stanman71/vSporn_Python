@@ -1,0 +1,49 @@
+---
+project_name: Test_01
+
+
+connection:
+    vcenter_ip:    
+    username:      
+    password:      
+    host_name:     
+    data_center:   
+    datastore:     
+    vm_folder:     
+
+
+default_settings_TEMPLATE:
+    template_mgmt_IP:   "172.18.10.85"
+    default_username:   "netconf"
+    default_password:   "Netconf"
+    external_interface: "br-ext"
+
+# mgmt_ip range: 172.18.10.90-139
+
+devices:
+    - name: R01
+      type: vMX
+      version: 18.2R1.9
+      mgmt_ip: 172.18.10.101/24
+      mgmt_ip_gw: 172.18.10.1 # Gateway
+      network: 
+          - R01-R03 # ge-0/0/0
+          - R01-R02 # ge-0/0/1
+
+    - name: R02
+      type: vMX
+      version: 18.2R1.9
+      mgmt_ip: 172.18.10.102/24
+      mgmt_ip_gw: 172.18.10.1 # Gateway
+      network: 
+          - R02-R03 # ge-0/0/0
+          - R01-R02 # ge-0/0/1
+
+    - name: R03
+      type: vMX
+      version: 18.2R1.9
+      mgmt_ip: 172.18.10.103/24
+      mgmt_ip_gw: 172.18.10.1 # Gateway
+      network: 
+          - R01-R03 # ge-0/0/0
+          - R02-R03 # ge-0/0/1
