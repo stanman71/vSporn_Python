@@ -14,8 +14,10 @@ This project was made to modify the configuration of all Juniper devices (e.g. r
 
 - build complete virtual topologies based on a YMAL-file
 - create and configure virtual vMX routers 
-- generate all network connections (management connection, internal connection between controlPlane and forwardingPlane, external connections   
-  between virtual routers)
+- generate all network connections 
+  - management connection
+  - internal connection between controlPlane and forwardingPlane
+  - external connections between virtual routers
 - upload a custom default configuration
 - each configuration step will be checked for possible errors before the implementation starts (exception handling for different events and 
   adequate dynamic reaction)
