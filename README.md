@@ -26,6 +26,7 @@ This project was made to modify the configuration of all Juniper devices (e.g. r
 ------------
 ------------
 ------------
+
 ### How to use ?
 
 ##### start ```main.py``` 
@@ -43,6 +44,8 @@ open ```main.py``` and specify the device you want to connect with in this forma
 ```
 Juniper_MOD("<IP>", "<user>", "<password>", "telnet", "23") 
 ```
+
+<br/>
 
 ------------
 
@@ -73,6 +76,8 @@ specify the part of the configuration that you want to have displayed:
 
 - firewall | firewalls
 
+<br/>
+
 ------------
 
 #### Example:
@@ -89,6 +94,8 @@ router_01.GET_conf("firewall")
 
 
 upload configuration from an external file
+
+<br/>
 
 ------------
 
@@ -151,6 +158,8 @@ specify in quotes and keyword "delete" the part of the configuration that you wa
 
 - delete "firewall-role"
 
+<br/>
+
 ------------
 
 #### Example:
@@ -176,6 +185,8 @@ router_01.del_conf("delete ospf")
 
 - need Juniper vMX templates >>> more informations at the end of this document
 
+<br/>
+
 ------------
 
 #### Example:
@@ -187,6 +198,8 @@ Create_MAIN.Create("./TOPOLOGY/Test_01.yml")
 - the configuration settings of your VMware environment (vcenter_ip, username, password...) are in the connection section of the YMAL-file
 
 - all names of the new topology will be automatically generated and got the chosen project_name as prefix
+
+<br/>
 
 ##### test_topology.yaml 
 ###### default folder: TOPOLOGY
@@ -259,7 +272,9 @@ devices:                             # router list
 - the VM of the controlPlane needs a default configuration with an user, access permissions and management IP
 
 - a management IP is necessary to upload the initial configuration 
-  - temporary management IP in this example: 192.18.10.100/24
+  - temporary management IP in this example: 192.18.10.100/24  
+  
+<br/>
 
 ##### template.conf
 ###### folder: CONFIG
