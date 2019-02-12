@@ -58,7 +58,7 @@ Juniper_MOD("192.18.10.90", "netconf", "Juniper", "telnet", "23")
 ------------
 ------------
 
-### Get the current configuration
+### Get current configuration
 
 specify the part of the configuration that you want to have displayed:
 
@@ -90,7 +90,7 @@ router_01.GET_conf("firewall")
 ------------
 ------------
 
-### Update the configuration
+### Update configuration
 
 
 upload configuration from an external file
