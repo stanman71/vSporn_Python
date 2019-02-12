@@ -41,7 +41,7 @@ You will find more examples there
 open ```main.py``` and specify the device you want to connect with in this format:
 
 ```
-Juniper_MOD("<IP>", "<user>", "<password>", "telnet", "23")
+Juniper_MOD("<IP>", "<user>", "<password>", "telnet", "23") 
 ```
 
 ------------
