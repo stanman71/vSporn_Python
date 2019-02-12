@@ -188,7 +188,7 @@ Create_MAIN.Create("./TOPOLOGY/Test_01.yml")
 
 - all names of the new topology will be automatically generated and got the chosen project_name as prefix
 
-##### test.yaml 
+##### test_topology.yaml 
 ###### default folder: TOPOLOGY
 
 ```
