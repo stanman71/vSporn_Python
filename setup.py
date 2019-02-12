@@ -11,7 +11,7 @@ with open('LICENSE') as f:
 setup(
     name='vSporn-Python',
     version='1.0.0',
-    description='Package to management Juniper devices',
+    description='Package to management Juniper devices and build topologies in VMware',
     long_description=readme,
     author='Martin Stan',
     author_email='martin.stan@gmx.de',
