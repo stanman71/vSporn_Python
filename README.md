@@ -24,8 +24,11 @@ This project was made to modify the configuration of all Juniper devices (e.g. r
 - every step and every result will be written in the console 
 
 ------------
+------------
+------------
+### How to use ?
 
-##### start ```main.py``` to use features
+##### start ```main.py``` 
 
 You will find more examples there
 
@@ -46,7 +49,7 @@ Juniper_MOD("<IP>", "<user>", "<password>", "telnet", "23")
 #### Example:
 
 ```
-Juniper_MOD("172.18.10.90", "netconf", "Juniper", "telnet", "23")
+Juniper_MOD("192.18.10.90", "netconf", "Juniper", "telnet", "23")
 ```
 ------------
 ------------
@@ -95,7 +98,7 @@ upload configuration from an external file
 router_01.set_conf("./my-junos-config.conf")
 ```
 
-##### config-file: my-junos-config.conf    
+##### my-junos-config.conf    
 ###### default folder: CONFIG
 
 ```
@@ -185,7 +188,7 @@ Create_MAIN.Create("./TOPOLOGY/Test_01.yml")
 
 - all names of the new topology will be automatically generated and got the chosen project_name as prefix
 
-##### topology-file: test.yaml 
+##### test.yaml 
 ###### default folder: TOPOLOGY
 
 ```
@@ -258,7 +261,7 @@ devices:                             # router list
 - a management IP is necessary to upload the initial configuration 
   - temporary management IP in this example: 192.18.10.100/24
 
-##### template config-file: template.conf
+##### template.conf
 ###### folder: CONFIG
 
 ```
