@@ -104,6 +104,7 @@ upload configuration from an external file
 ```
 router_01.set_conf("./my-junos-config.conf")
 ```
+<br/>
 
 ##### my-junos-config.conf    
 ###### default folder: CONFIG
